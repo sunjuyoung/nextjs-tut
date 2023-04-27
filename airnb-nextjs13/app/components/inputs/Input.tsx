@@ -25,16 +25,11 @@ const Input: React.FC<InputProps> = ({
   errors,
 }) => {
   return (
-    <div className="w-full relative">
+    <div className="relative w-full">
       {formatPrice && (
         <BiDollar
           size={24}
-          className="
-            text-neutral-700
-            absolute
-            top-5
-            left-2
-          "
+          className="absolute text-neutral-700 top-5 left-2"
         />
       )}
       <input
