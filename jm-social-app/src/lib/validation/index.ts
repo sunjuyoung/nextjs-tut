@@ -6,3 +6,8 @@ export const SignupValidation = z.object({
   email: z.string().email(),
   password: z.string().min(8, { message: "패스워드 8글자 이상" }).max(50),
 });
+
+export const SigninValidation = z.object({
+  email: z.string().email(),
+  password: z.string().min(8, { message: "패스워드 8글자 이상" }).max(50),
+});

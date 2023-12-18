@@ -81,3 +81,11 @@ export async function getCurrentUser() {
     console.log(error);
   }
 }
+
+export async function signOutAccount() {
+  try {
+    await account.deleteSession("current");
+  } catch (error) {
+    console.log(error);
+  }
+}

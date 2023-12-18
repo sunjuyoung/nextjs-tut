@@ -153,7 +153,7 @@ const SignupForm = () => {
           <p className="text-center text-small text-light-2">
             이미 계정이 있으신가요?
             <Link
-              to="sign-in"
+              to="/sign-in"
               className="ml-1 text-sm font-bold text-primary-500 text-primary"
             >
               로그인
